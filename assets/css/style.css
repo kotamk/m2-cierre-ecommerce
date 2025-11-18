@@ -1,4 +1,4 @@
-#seccion-productos .card img {
+#seccion-productos .card img, .encabezado-detalle img {
     aspect-ratio: 4/3;
 }
 :root {
