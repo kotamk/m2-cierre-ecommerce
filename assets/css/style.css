@@ -2,38 +2,36 @@
     aspect-ratio: 4/3;
 }
 :root {
-    /* --- Sobrescribiendo Variables de Bootstrap --- */
+   
     
-    /* Fondos y Textos */
-    --bs-body-bg: #0b0d12;       /* Fondo Espacial */
-    --bs-body-color: #f0f4f8;    /* Texto Blanco Estelar */
+   
+    --bs-body-bg: #0b0d12;      
+    --bs-body-color: #f0f4f8;    
     
-    /* Colores Semánticos */
-    --bs-primary: #2c8af0;       /* Azul Sable */
+  
+    --bs-primary: #2c8af0;     
     --bs-primary-rgb: 44, 138, 240;
     
-    --bs-secondary: #1f2430;     /* Gris Oscuro (Para fondos secundarios) */
+    --bs-secondary: #1f2430;    
     --bs-secondary-rgb: 31, 36, 48;
     
-    --bs-warning: #ffe81f;       /* Amarillo Icónico */
+    --bs-warning: #ffe81f;      
     --bs-warning-rgb: 255, 232, 31;
     
-    --bs-danger: #e01e37;        /* Rojo Sith */
+    --bs-danger: #e01e37;       
     --bs-danger-rgb: 224, 30, 55;
     
-    --bs-dark: #151922;          /* Gris Imperial (Surface) */
+    --bs-dark: #151922;         
     
-    /* Fuentes (Opcional pero recomendado) */
-    --bs-font-sans-serif: 'Orbitron', 'Roboto', sans-serif; /* Fuente Sci-Fi */
+ 
+    --bs-font-sans-serif: 'Orbitron', 'Roboto', sans-serif; 
+
 }
 
-/* --- Estilos UX Personalizados --- */
-
-/* Efecto Neón para botones primarios */
 .btn-primary {
     background-color: var(--bs-primary);
     border: none;
-    box-shadow: 0 0 10px rgba(44, 138, 240, 0.5); /* Glow azul */
+    box-shadow: 0 0 10px rgba(44, 138, 240, 0.5); 
     transition: all 0.3s ease;
     font-weight: 600;
     letter-spacing: 1px;
@@ -41,13 +39,13 @@
 
 .btn-primary:hover {
     background-color: #4fa3ff;
-    box-shadow: 0 0 20px rgba(44, 138, 240, 0.8); /* Glow más intenso */
+    box-shadow: 0 0 20px rgba(44, 138, 240, 0.8); 
     transform: translateY(-2px);
 }
 .btn-secondary {
     background-color: var( --bs-secondary);
     border: none;
-    box-shadow: 0 0 10px rgba(127, 127, 129, 0.5); /* Glow azul */
+    box-shadow: 0 0 10px rgba(127, 127, 129, 0.5); 
     transition: all 0.3s ease;
     font-weight: 600;
     letter-spacing: 1px;
@@ -55,15 +53,15 @@
 
 .btn-secondary:hover {
     background-color: #dee7e7c9;
-    box-shadow: 0 0 20px rgba(45, 47, 49, 0.8); /* Glow más intenso */
+    box-shadow: 0 0 20px rgba(45, 47, 49, 0.8);
     transform: translateY(-2px);
 }
 
-/* Tarjetas con estilo 'Panel de Nave' */
+
 .card {
     background-color: var(--bs-dark);
-    border: 1px solid rgba(142, 153, 168, 0.2); /* Borde sutil acero */
-    border-radius: 4px; /* Bordes menos redondos para look técnico */
+    border: 1px solid rgba(142, 153, 168, 0.2); 
+    border-radius: 4px;
 }
 
 /* Títulos con el amarillo icónico */
@@ -73,24 +71,24 @@ h1, h2, .text-starwars {
     letter-spacing: 2px;
 }
 .starwars-nav {
-    background-color: rgba(21, 25, 34, 0.95); /* Tu color Surface con transparencia */
-    border-bottom: 1px solid rgba(44, 138, 240, 0.3); /* Línea sutil azul abajo */
-    backdrop-filter: blur(10px); /* Difumina el fondo detrás de la nav */
+    background-color: rgba(21, 25, 34, 0.95);
+    border-bottom: 1px solid rgba(44, 138, 240, 0.3);
+    backdrop-filter: blur(10px);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
 
 /* 2. Logo */
 .navbar-brand {
-    font-family: 'Orbitron', sans-serif; /* Si importaste la fuente */
-    color: var(--bs-warning) !important; /* Amarillo Star Wars */
+    font-family: 'Orbitron', sans-serif; 
+    color: var(--bs-warning) !important; 
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-/* 3. Enlaces: Efecto Hover "Sable de Luz" */
+/* 3. Enlaces: Efecto Hover  */
 .nav-link {
-    color: #bdc3c7 !important; /* Gris claro por defecto */
+    color: #bdc3c7 !important; 
     transition: all 0.3s ease;
     text-transform: uppercase;
     font-size: 0.9rem;
