@@ -15,9 +15,13 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <script defer src="./assets/js/script.js"></script>
+
 </head>
 
 <body>
@@ -44,8 +48,50 @@
         </div>
     </nav>
     <header class="py-3">
-        <h1>Detalles de tu carrito:</h1>
+        <h1 class="text-center">Detalles de tu carrito:</h1>
     </header>
+    <main>
+        <section class="detalle-carrito text-danger">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">imagen</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Modelo</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.-</td>
+                        <td>Producto 1</td>
+                        <td>
+                            <div>
+                                <img class="img-fluid" src="./assets/img/recortada-windu.jpg" alt="Producto 6"
+                                    width="80px">
+                            </div>
+                        </td>
+                        <td>$4.500</td>
+                        <td>Mod 6</td>
+                        <td>
+                            <input class="cant" type="number" min="1" max="10">
+                        </td>
+                        <td>
+                            <button class="btn btn-danger btn-eliminar">Eliminar
+                                <i class="bi bi-trash3"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="d-flex justify-content-end py-2">
+                <button class="btn btn-primary">Ir a pagar</button>
+            </div>
+        </section>
+    </main>
     <hr>
     <footer class="py-5">
         <p class="text-center">Proyecto desarrollado por César Ortega.

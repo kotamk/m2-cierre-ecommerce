@@ -86,7 +86,7 @@ h1, h2, .text-starwars {
     font-weight: 700;
 }
 
-/* 3. Enlaces: Efecto Hover  */
+
 .nav-link {
     color: #bdc3c7 !important; 
     transition: all 0.3s ease;
@@ -96,16 +96,16 @@ h1, h2, .text-starwars {
 }
 
 .nav-link:hover, .nav-link.active {
-    color: var(--bs-primary) !important; /* Azul */
-    text-shadow: 0 0 8px rgba(44, 138, 240, 0.8); /* Glow azul */
+    color: var(--bs-primary) !important; 
+    text-shadow: 0 0 8px rgba(44, 138, 240, 0.8); 
 }
 
-/* 4. Input de Búsqueda: Estilo Terminal */
+
 .search-terminal {
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid #444;
     color: var(--bs-primary);
-    font-family: 'Courier New', monospace; /* Fuente tipo código */
+    font-family: 'Courier New', monospace;
 }
 
 .search-terminal::placeholder {

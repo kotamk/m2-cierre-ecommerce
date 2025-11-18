@@ -15,4 +15,4 @@ if (alertTrigger) {
     alertTrigger.addEventListener("click", () => {
         appendAlert("Producto agregado correctamente al carrito!", "success");
     });
-}
+};
