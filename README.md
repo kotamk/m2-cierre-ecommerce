@@ -1,4 +1,4 @@
-# Proyecto de Finalizacion Modulo N°2 - Sitio E-Commerce
+# Proyecto - Sitio E-Commerce
 
 
 El Proyecto consiste en ejercitar mi aprendizaje de HTML,CSS,Bootstrap 5.3 ,Jquery 3.7.1,Javascript basico
